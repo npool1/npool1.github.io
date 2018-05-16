@@ -1,3 +1,40 @@
 body{
     font-family: 'Oswald', sans-serif;
+    height: 100%;
+    width: 100%;
+    border: 11px solid #ededed;
+}
+.navbar {
+    background-color: #ffffff;
+    padding: 1% 5%;
+    margin-bottom: 10px;
+    border: 0;
+    font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #32b5b0;
+}
+.navbar-default .navbar-nav li a:hover{
+    color: #ededed;
+}
+#home{
+    background: url(img/mopop1.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #32b5b0;
+}
+hr {
+    height: 4px;
+    width: 30%;
+    background-color: white;
+    margin-top: 0px;
 }
