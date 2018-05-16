@@ -15,8 +15,22 @@ body{
 .navbar-default .navbar-nav li a {
     color: #32b5b0;
 }
+
+.navbar-default .navbar-nav li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #32b5b0;
+    transition: width .3s;
+}
+.navbar-default .navbar-nav li a:hover::after {
+    width: 100%;
+    /* color: #32b5b0; */
+}
+
 .navbar-default .navbar-nav li a:hover{
-    color: #ededed;
+    color: #32b5b0;
 }
 #home{
     background: url(img/mopop1.jpg) no-repeat center center fixed;
