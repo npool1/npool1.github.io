@@ -32,9 +32,70 @@ body{
     vertical-align: middle;
     color: #32b5b0;
 }
+.landing-text h1 {
+    font-size: 600%;
+    font-weight: 700;
+}
+.landing-text h3 {
+    font-size: 300%;
+    font-weight: 700;
+}
+
 hr {
     height: 4px;
     width: 30%;
     background-color: white;
     margin-top: 0px;
+}
+
+.padding {
+    padding: 20px 0;
+}
+
+.padding img {
+    width: 100%;
+}
+#fixed-wrap{
+    background: url(img/window.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.fixed{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #32b5b0;
+}
+.container button{
+    background-color: #32b5b0;
+    border: #32b5b0;
+}
+
+footer{
+    width: 100%;
+    background-color: white;
+    padding: 0% 5% 5% 5%;
+    color: #32b5b0;
+}
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #32b5b0;
+    border: solid 2px #32b5b0;
+    border-radius: 30px;
+}
+.fa:hover{
+    color:#ededed;
+    text-decoration: none;
+}
+.icon {
+    max-width: 200px;
+}
+.container h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #32b5b0;
 }
