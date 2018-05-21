@@ -87,6 +87,14 @@ hr {
     background-color: #32b5b0;
     border: #32b5b0;
 }
+.container button:hover{
+    background-color: #ededed;
+    border: #32b5b0;
+}
+.container button:active:focus{
+    background-color: #ededed;
+    border: #32b5b0;
+}
 
 footer{
     width: 100%;
