@@ -121,3 +121,12 @@ footer{
     padding-bottom: 20px;
     color: #32b5b0;
 }
+@media (max-width: 768px){
+    #home {
+        background: contain;
+
+    }
+    #fixed-wrap{
+        background: contain;
+    }
+}
