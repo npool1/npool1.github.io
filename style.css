@@ -128,5 +128,6 @@ footer{
     }
     #fixed-wrap{
         background-image: url(img/window_small.jpg);
+        background-size: cover;
     }
 }
