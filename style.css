@@ -105,14 +105,14 @@ hr {
 .padding img {
     width: 100%;
 }
-#fixed-wrap{
+/* #fixed-wrap{
     background: url(img/window.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
     width: 100%;
     background-size: cover;
-}
+} */
 figure {
 	position: relative;
 	width: 100%;
@@ -184,13 +184,3 @@ footer{
     padding-bottom: 20px;
     color: #32b5b0;
 }
-
-/* @media only screen and (max-width: 767px){
-    #home {
-        background-image: url(img/mopop1.jpg);
-    }
-    #fixed-wrap{
-        background-image: url(img/window_small.jpg);
-        background-size: contain;
-    }
-} */
