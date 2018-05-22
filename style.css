@@ -55,7 +55,7 @@ section {
     background-size: cover;
 } */
 #home {
-	background-image: url('img/mountains.jpeg');
+	background-image: url('img/mopop1.jpg');
  	position: fixed;
  	display: table;
  	top: 0;
@@ -79,7 +79,8 @@ section {
 	z-index: 100;
 	display: table-cell;
 	text-align: center;
-	vertical-align: middle;
+    vertical-align: middle;
+    color: #32b5b0;
 }
 .landing-text h1 {
     font-size: 600%;
@@ -132,7 +133,7 @@ figure {
     color: #32b5b0;
 } */
 #fixed {
-	background-image: url('img/background.jpg');
+	background-image: url('img/window.jpg');
 	position: fixed;
 	display: block;
 	top: 0;
