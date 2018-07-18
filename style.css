@@ -6,35 +6,19 @@ body{
 }
 .navbar {
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 1% 5%;
+    padding: 1% 1%;
     margin: 11px;
     border: 0;
     font-size: 1.2em;
 }
-.navbar-head fa{
-    padding-left: 10px;
+@media only screen and (max-width: 768px){
+    .navbar-default .navbar-collapse{
+        background: rgba(0, 0, 0, .5);
+    }
 }
-.navbar-header span{
-    font-size: 30px;
-    color: #32b5b0;
-    text-shadow: 
-    -1px -1px 0 #000,
-    1px -1px 0 #000, 
-    -1px 1px 0 #000, 
-    1px 1px 0 #000;
-    text-align: top;
-}
-#navbar-brand{
-    font-size: 30px;
-    color: #000;
-    text-shadow: 
-    -1px -1px 0 #32b5b0,
-    1px -1px 0 #32b5b0, 
-    -1px 1px 0 #32b5b0, 
-    1px 1px 0 #32b5b0;
-    text-align: top;
-    padding-left: 30px;
-    padding-top: 5px;
+.navbar img{
+    height: 60px;
+    vertical-align: top;
 }
 .navbar-default .navbar-nav li a {
     color: #32b5b0;
@@ -206,6 +190,7 @@ footer{
     width: auto;
     border: 1px solid black;
     border-radius: 135px;
+    margin-left: 42px;
     /* padding-bottom: 50px; */
 }
 .container p {
