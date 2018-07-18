@@ -93,6 +93,10 @@ section {
 	display: table-cell;
 	text-align: center;
     vertical-align: middle;
+}
+.landing-text h1 {
+    font-size: 600%;
+    font-weight: 700;
     color: #32b5b0;
     text-shadow: 
     -1px -1px 0 #000,
@@ -100,13 +104,15 @@ section {
     -1px 1px 0 #000, 
     1px 1px 0 #000;
 }
-.landing-text h1 {
-    font-size: 600%;
-    font-weight: 700;
-}
 .landing-text h3 {
     font-size: 300%;
     font-weight: 700;
+    color: #000;
+    text-shadow: 
+    -1px -1px 0 #32b5b0,
+    1px -1px 0 #32b5b0,
+    -1px 1px 0 #32b5b0, 
+    1px 1px 0 #32b5b0;
 }
 
 hr {
@@ -209,7 +215,7 @@ footer{
     align-content: center;
 }
 #about {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 #about p{
@@ -228,6 +234,10 @@ footer{
     1px -1px 0 #000, 
     -1px 1px 0 #000, 
     1px 1px 0 #000;
+}
+#projects img:hover{
+    opacity: .5;
+    border: 1px solid rgba(0,0,0,.5);
 }
 #contact h2{
     text-shadow: 
